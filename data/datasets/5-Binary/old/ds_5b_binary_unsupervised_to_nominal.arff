@@ -1,0 +1,351 @@
+@relation Thoracic_Surgery_Risk_TrainingData-weka.filters.unsupervised.attribute.InterquartileRange-Rfirst-last-O3.0-E6.0-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-C19-Llast-weka.filters.unsupervised.attribute.Remove-R18-19-weka.filters.unsupervised.attribute.RemoveUseless-M80.0-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0-weka.filters.unsupervised.attribute.Discretize-F-B10-M-1.0-Rfirst-last-weka.filters.unsupervised.attribute.NominalToBinary-N-Rfirst-last
+
+@attribute DGN=1 {f,t}
+@attribute DGN=2 {f,t}
+@attribute DGN=3 {f,t}
+@attribute DGN=4 {f,t}
+@attribute DGN=5 {f,t}
+@attribute DGN=6 {f,t}
+@attribute DGN=8 {f,t}
+@attribute 'PRE4=\'(-inf-0.149296]\'' {f,t}
+@attribute 'PRE4=\'(0.149296-0.228169]\'' {f,t}
+@attribute 'PRE4=\'(0.228169-0.273239]\'' {f,t}
+@attribute 'PRE4=\'(0.273239-0.329577]\'' {f,t}
+@attribute 'PRE4=\'(0.329577-0.401408]\'' {f,t}
+@attribute 'PRE4=\'(0.401408-0.476056]\'' {f,t}
+@attribute 'PRE4=\'(0.476056-0.523944]\'' {f,t}
+@attribute 'PRE4=\'(0.523944-0.584507]\'' {f,t}
+@attribute 'PRE4=\'(0.584507-0.680282]\'' {f,t}
+@attribute 'PRE4=\'(0.680282-inf)\'' {f,t}
+@attribute 'PRE5=\'(-inf-0.1875]\'' {f,t}
+@attribute 'PRE5=\'(0.1875-0.245]\'' {f,t}
+@attribute 'PRE5=\'(0.245-0.28875]\'' {f,t}
+@attribute 'PRE5=\'(0.28875-0.325]\'' {f,t}
+@attribute 'PRE5=\'(0.325-0.36375]\'' {f,t}
+@attribute 'PRE5=\'(0.36375-0.415]\'' {f,t}
+@attribute 'PRE5=\'(0.415-0.46125]\'' {f,t}
+@attribute 'PRE5=\'(0.46125-0.50625]\'' {f,t}
+@attribute 'PRE5=\'(0.50625-0.565]\'' {f,t}
+@attribute 'PRE5=\'(0.565-inf)\'' {f,t}
+@attribute PRE6=0 {f,t}
+@attribute PRE6=1 {f,t}
+@attribute PRE6=2 {f,t}
+@attribute PRE7 {0,1}
+@attribute PRE8 {0,1}
+@attribute PRE9 {0,1}
+@attribute PRE10 {0,1}
+@attribute PRE11 {0,1}
+@attribute PRE14=1 {f,t}
+@attribute PRE14=2 {f,t}
+@attribute PRE14=3 {f,t}
+@attribute PRE14=4 {f,t}
+@attribute PRE17 {0,1}
+@attribute PRE19 {0,1}
+@attribute PRE25 {0,1}
+@attribute PRE30 {0,1}
+@attribute 'AGE=\'(-inf-0.302083]\'' {f,t}
+@attribute 'AGE=\'(0.302083-0.34375]\'' {f,t}
+@attribute 'AGE=\'(0.34375-0.40625]\'' {f,t}
+@attribute 'AGE=\'(0.40625-0.447917]\'' {f,t}
+@attribute 'AGE=\'(0.447917-0.510417]\'' {f,t}
+@attribute 'AGE=\'(0.510417-0.572917]\'' {f,t}
+@attribute 'AGE=\'(0.572917-0.635417]\'' {f,t}
+@attribute 'AGE=\'(0.635417-0.677083]\'' {f,t}
+@attribute 'AGE=\'(0.677083-0.739583]\'' {f,t}
+@attribute 'AGE=\'(0.739583-inf)\'' {f,t}
+@attribute Risk1Yr {0,1}
+
+@data
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,f,f,t,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,f,f,t,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1,1,1,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,f,t,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,f,t,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,1,0,0,1,1,t,f,f,f,1,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,f,f,f,t,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,1,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,1
+f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,1,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,1,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,1,0,1,1,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,0,0,0,1,1,f,f,f,t,0,0,0,1,f,f,f,f,f,f,f,f,f,t,1
+f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,1,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,f,f,t,1,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,t,1,0,0,1,1,f,f,t,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,1,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,1,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,1,0,1,1,f,t,f,f,0,0,1,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,1,0,1,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,f,t,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,1,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,1,1,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0,1,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,1,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,1,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,1,0,1,1,f,t,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0,1,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,1,0,1,1,f,f,f,f,f,f,f,f,f,t,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,t,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,0,1,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,f,t,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,1,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0,0,1,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,1
+f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,1,0,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,1,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,1,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,0,1,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,1,f,f,t,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,1,1,1,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,1,1,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,0,0,0,0,0,t,f,f,f,1,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,1,1,1,0,0,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,t,f,0,1,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,0,0,0,1,1,f,f,f,t,0,0,0,1,f,f,f,f,f,f,f,f,f,t,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,1,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,1,0,0,1,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,1,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,f,t,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,1,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,f,t,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,1,0,0,0,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,1,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,1,0,0,f,t,f,f,0,0,1,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,0,1,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,1,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,1,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,f,f,t,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,0,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,t,f,f,f,1,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,1,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,1,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,f,t,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,0,1,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,1,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,0,1,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,1,1,0,f,f,f,t,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,1,0,1,1,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,1
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,f,f,t,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,0,f,f,f,f,f,f,f,f,f,t,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,t,f,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,t,f,f,f,0
+f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,1,0,1,1,f,t,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,1,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,t,f,f,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,1,1,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,t,f,f,f,f,f,f,f,f,f,0
+f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,t,f,f,f,1,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,1,0,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,t,f,f,1
+f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,t,f,f,f,f,f,f,f,1
+f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,0,0,0,1,1,t,f,f,f,1,0,0,1,f,f,f,f,f,f,f,f,t,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,f,f,f,t,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,t,f,f,0,0,0,0,0,f,t,f,f,0,0,0,1,f,t,f,f,f,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,t,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,0,f,t,f,f,f,f,f,f,f,f,0
+f,t,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,t,f,0,0,0,1,0,f,f,f,t,1,0,0,0,f,f,f,f,f,t,f,f,f,f,1
+f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,1,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,f,f,f,f,t,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,t,f,0,0,0,1,0,t,f,f,f,0,0,0,1,f,f,f,t,f,f,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,1,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,f,t,f,f,f,f,1
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,f,f,f,t,f,t,f,0,0,0,1,0,f,t,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0
+f,f,t,f,f,f,f,f,f,f,f,f,f,f,t,f,f,f,f,f,f,t,f,f,f,f,f,t,f,f,0,0,0,0,0,t,f,f,f,0,0,0,1,f,f,f,f,t,f,f,f,f,f,0

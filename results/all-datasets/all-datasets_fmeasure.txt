@@ -1,0 +1,46 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -print-col-names -print-row-names -enum-col-names"
+Analysing:  F_measure
+Datasets:   21
+Resultsets: 8
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       23/04/16 21:35
+
+
+Dataset                   (1) meta.Fi | (2) meta (3) meta (4) meta (5) meta (6) meta (7) meta (8) meta
+------------------------------------------------------------------------------------------------------
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.71 *   0.75 *   0.81     0.83     0.68 *   0.82     0.87 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.74 *   0.74 *   0.83     0.67 *   0.67 *   0.72 *
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.75 *   0.81     0.83     0.75 *   0.82     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.77 *   0.77 *   0.83     0.77 *   0.81     0.86  
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.72 *   0.79     0.79     0.83     0.77 *   0.82     0.87 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.70 *   0.74 *   0.74 *   0.83     0.69 *   0.70 *   0.73 *
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.74 *   0.74 *   0.83     0.81     0.73 *   0.78 *
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.70 *   0.74 *   0.74 *   0.83     0.69 *   0.70 *   0.73 *
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.74 *   0.74 *   0.83     0.81     0.73 *   0.78 *
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.73 *   0.81     0.83     0.80     0.82     0.87 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.71 *   0.73 *   0.82     0.83     0.76 *   0.83     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.73 *   0.81     0.83     0.80     0.82     0.87 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.71 *   0.73 *   0.82     0.83     0.76 *   0.83     0.88 v
+Thoracic_Surgery_Risk_Tra(200)   0.83 |   0.73 *   0.72 *   0.80     0.83     0.83     0.82     0.86  
+Thoracic_Surgery_Risk_Tra(200)   0.83 |   0.70 *   0.73 *   0.80     0.83     0.75 *   0.84     0.88 v
+Thoracic_Surgery_Risk_Tra(200)   0.83 |   0.73 *   0.72 *   0.80     0.83     0.83     0.82     0.86  
+Thoracic_Surgery_Risk_Tra(200)   0.83 |   0.70 *   0.73 *   0.80     0.83     0.75 *   0.84     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.74 *   0.80     0.83     0.80     0.82     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.77 *   0.81     0.83     0.77 *   0.84     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.74 *   0.80     0.83     0.80     0.82     0.88 v
+Thoracic_Surgery_Risk_Tra(100)   0.83 |   0.73 *   0.77 *   0.81     0.83     0.77 *   0.84     0.88 v
+------------------------------------------------------------------------------------------------------
+                              (v/ /*) | (0/0/21) (0/1/20) (0/15/6) (0/21/0) (0/8/13) (0/16/5) (13/3/5)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W rules.ZeroR' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W trees.J48 -- -C 0.25 -M 2' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W trees.RandomForest -- -I 100 -K 0 -S 1 -num-slots 1' -4523450618538717400
+(5) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W rules.ZeroR' -4523450618538717400
+(6) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W bayes.NaiveBayes' -4523450618538717400
+(7) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.J48 -- -C 0.25 -M 2' -4523450618538717400
+(8) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.RandomForest -- -I 100 -K 0 -S 1 -num-slots 1' -4523450618538717400
+

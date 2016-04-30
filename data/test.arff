@@ -1,0 +1,81 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42}
+@attribute Key_Run {1,2,3,4,5}
+@attribute Key_Scheme {weka.classifiers.bayes.NaiveBayes}
+@attribute Key_Scheme_options {-D,''}
+@attribute Key_Scheme_version_ID {5995231201785697655}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary string
+
+@data
+
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,1,weka.classifiers.bayes.NaiveBayes,-D,5995231201785697655,20160420.1436,111,57,39,18,0,68.421053,31.578947,0,0.369779,0.429769,0.478381,85.940385,95.657641,57.015988,54.647015,2.368973,1.00028,0.95872,0.041561,9.406576,0.165028,940.710733,0.75,21,0.37931,11,0.62069,18,0.25,7,0.65625,0.75,0.7,0.373459,0.70936,0.659799,0.684211,0.313521,0.686479,0.315789,0.688684,0.684211,0.683041,0.373459,0.70936,0.692009,0.683333,0.684211,0,0.001,0.000294,0.000412,0.294,0.412,9860,21784,12874,100,99.122807,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,2,weka.classifiers.bayes.NaiveBayes,-D,5995231201785697655,20160420.1436,110,58,35,23,0,60.344828,39.655172,0,0.206897,0.466502,0.511612,93.300303,102.322312,58,62.540504,-4.540504,1,1.078285,-0.078285,4.605813,0.079411,460.581337,0.862069,25,0.655172,19,0.344828,10,0.137931,4,0.568182,0.862069,0.684932,0.241747,0.633175,0.690822,0.603448,0.396552,0.603448,0.396552,0.641234,0.603448,0.575024,0.241747,0.634364,0.631585,0.575024,0.603448,0.001,0,0.000285,0.000392,0.285,0.392,9860,21619,13039,100,100,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,3,weka.classifiers.bayes.NaiveBayes,-D,5995231201785697655,20160420.1436,111,57,31,26,0,54.385965,45.614035,0,0.089681,0.477377,0.536371,95.460627,107.253376,57.015988,70.35447,-13.338483,1.00028,1.234289,-0.234008,2.781769,0.048803,278.19261,0.607143,17,0.517241,15,0.482759,14,0.392857,11,0.53125,0.607143,0.566667,0.090573,0.546182,0.551139,0.54386,0.453958,0.546042,0.45614,0.545877,0.54386,0.54217,0.090573,0.546182,0.556427,0.542593,0.54386,0,0.001,0.000294,0.00042,0.294,0.42,9860,21784,12874,96.491228,97.368421,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,4,weka.classifiers.bayes.NaiveBayes,-D,5995231201785697655,20160420.1436,110,58,32,26,0,55.172414,44.827586,0,0.103448,0.455593,0.534348,91.118634,106.869659,58,74.61314,-16.61314,1,1.286433,-0.286433,5.744818,0.099049,574.481775,0.586207,17,0.482759,14,0.517241,15,0.413793,12,0.548387,0.586207,0.566667,0.103695,0.592152,0.574996,0.551724,0.448276,0.551724,0.448276,0.551971,0.551724,0.55119,0.103695,0.591855,0.584777,0.55119,0.551724,0.001,0.001,0.001183,0.000596,1.183,0.596,9934,21619,13039,96.551724,94.827586,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,5,weka.classifiers.bayes.NaiveBayes,-D,5995231201785697655,20160420.1436,110,58,38,20,0,65.517241,34.482759,0,0.310345,0.439909,0.482461,87.981796,96.49213,58,57.646432,0.353568,1,0.993904,0.006096,8.307817,0.143238,830.781671,0.689655,20,0.37931,11,0.62069,18,0.310345,9,0.645161,0.689655,0.666667,0.311086,0.67717,0.637949,0.655172,0.344828,0.655172,0.344828,0.655914,0.655172,0.654762,0.311086,0.67717,0.652988,0.654762,0.655172,0.001,0.002,0.001028,0.00105,1.028,1.05,9860,21619,13039,96.551724,98.275862,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,1,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20160420.1436,111,57,33,24,0,57.894737,42.105263,0,0.148194,0.415588,0.553332,83.104741,110.644826,57.015988,74.462196,-17.446208,1.00028,1.306354,-0.306074,9.560509,0.167728,956.104882,0.25,7,0.103448,3,0.896552,26,0.75,21,0.7,0.25,0.368421,0.192628,0.736453,0.720834,0.578947,0.432396,0.567604,0.421053,0.625308,0.578947,0.529086,0.192628,0.736453,0.723878,0.526316,0.578947,0,0,0.00024,0.000501,0.24,0.501,6487,21784,12874,98.245614,92.105263,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,2,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20160420.1436,110,58,29,29,0,50,50,0,0,0.465651,0.606994,93.130171,121.398797,58,102.306078,-44.306078,1,1.763898,-0.763898,3.621715,0.062443,362.171469,0.034483,1,0.034483,1,0.965517,28,0.965517,28,0.5,0.034483,0.064516,0,0.656361,0.695012,0.5,0.5,0.5,0.5,0.5,0.5,0.36167,0,0.656361,0.638847,0.36167,0.5,0,0,0.000152,0.000417,0.152,0.417,6487,21619,13039,93.103448,88.793103,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,3,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20160420.1436,111,57,32,25,0,56.140351,43.859649,0,0.11215,0.460421,0.598298,92.069979,119.636374,57.015988,96.488405,-39.472418,1.00028,1.692779,-0.692499,4.785515,0.083956,478.578498,0.214286,6,0.103448,3,0.896552,26,0.785714,22,0.666667,0.214286,0.324324,0.151958,0.584975,0.592275,0.561404,0.450566,0.549434,0.438596,0.60307,0.561404,0.502903,0.151958,0.584975,0.587917,0.499824,0.561404,0.001,0,0.000139,0.000638,0.139,0.638,6487,21784,12874,87.719298,84.210526,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,4,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20160420.1436,110,58,33,25,0,56.896552,43.103448,0,0.137931,0.459367,0.608719,91.873307,121.743796,58,109.041999,-51.041999,1,1.880034,-0.880034,4.99912,0.086192,499.912043,0.206897,6,0.068966,2,0.931034,27,0.793103,23,0.75,0.206897,0.324324,0.2,0.554102,0.599726,0.568966,0.431034,0.568966,0.431034,0.645,0.568966,0.503934,0.2,0.554102,0.570857,0.503934,0.568966,0,0,0.000138,0.000383,0.138,0.383,6487,21619,13039,79.310345,77.586207,?
+Thoracic_Surgery_Risk_TrainingData-weka.filters.supervised.instance.SpreadSubsample-M1.0-X0.0-S1-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42-weka.filters.unsupervised.instance.Randomize-S42,5,weka.classifiers.bayes.NaiveBayes,'',5995231201785697655,20160420.1436,110,58,30,28,0,51.724138,48.275862,0,0.034483,0.498133,0.648449,99.626594,129.689787,58,114.754293,-56.754293,1,1.978522,-0.978522,0.166566,0.002872,16.656589,0.103448,3,0.068966,2,0.931034,27,0.896552,26,0.6,0.103448,0.176471,0.06143,0.589774,0.563365,0.517241,0.482759,0.517241,0.482759,0.554717,0.517241,0.417504,0.06143,0.589774,0.564084,0.417504,0.517241,0,0,0.000156,0.000394,0.156,0.394,6487,21619,13039,86.206897,81.896552,?

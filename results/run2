@@ -1,0 +1,40 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   19
+Resultsets: 4
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       24/04/16 17:59
+
+
+Dataset                   (1) meta.FilteredC | (2) meta.Filtere (3) meta.Filter (4) meta.Filter
+-----------------------------------------------------------------------------------------------
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   60.44( 9.10) *   74.71(7.47)     81.02(6.07) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   61.39(10.08) *   61.29(7.57) *   63.64(8.08) *
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   72.38( 7.76)     64.32(9.35) *   68.90(8.34)  
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   61.39(10.08) *   61.29(7.57) *   63.64(8.08) *
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   72.38( 7.76)     64.32(9.35) *   68.90(8.34)  
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   70.30( 7.35)     72.83(7.08)     79.55(6.38) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   67.10( 7.41)     74.60(7.39)     81.98(5.30) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   70.30( 7.35)     72.83(7.08)     79.55(6.38) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   67.10( 7.41)     74.60(7.39)     81.98(5.30) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   74.60( 6.36)     73.03(6.52)     78.28(6.39) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   66.44( 7.97)     77.43(6.91) v   80.88(5.48) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   74.60( 6.36)     73.03(6.52)     78.28(6.39) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   66.44( 7.97)     77.43(6.91) v   80.88(5.48) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   71.24( 7.33)     72.64(7.19)     81.07(6.01) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   68.80( 7.72)     76.47(7.03) v   82.04(5.30) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   71.24( 7.33)     72.64(7.19)     81.07(6.01) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   68.80( 7.72)     76.47(7.03) v   82.04(5.30) v
+Thoracic_Surgery_Risk_Tra(200)   71.34(1.34) |   67.57( 8.89)     73.64(7.62)     78.36(6.75) v
+Thoracic_Surgery_Risk_Tra(200)   71.34(1.34) |   67.88( 8.57)     73.23(7.75)     80.30(6.02) v
+-----------------------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/16/3)        (4/11/4)        (15/2/2)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W rules.ZeroR' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W bayes.NaiveBayes' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.J48 -- -C 0.25 -M 2' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.RandomForest -- -I 100 -K 0 -S 1 -num-slots 1' -4523450618538717400
+

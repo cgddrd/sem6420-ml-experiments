@@ -1,0 +1,29 @@
+Tester:     weka.experiment.PairedCorrectedTTester -G 4,5,6 -D 1 -R 2 -S 0.05 -V -result-matrix "weka.experiment.ResultMatrixPlainText -mean-prec 2 -stddev-prec 2 -col-name-width 0 -row-name-width 25 -mean-width 2 -stddev-width 2 -sig-width 1 -count-width 5 -show-stddev -print-col-names -print-row-names -enum-col-names"
+Analysing:  Percent_correct
+Datasets:   4
+Resultsets: 8
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       23/04/16 16:54
+
+
+Dataset                   (1) meta.FilteredC | (2) meta.Filter (3) meta.Filter (4) meta.Filter (5) meta.Filter (6) meta.Filtere (7) meta.Filter (8) meta.Filter
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   65.94(8.38)     66.51(9.86)     66.75(8.06)     71.34(1.35)     59.20(10.31) *   59.41(7.86) *   63.57(8.54) *
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   65.02(8.66) *   67.48(7.63)     75.33(7.48)     71.34(1.35)     65.79( 7.80) *   75.05(6.73)     81.56(5.88) v
+Thoracic_Surgery_Risk_Tra(200)   71.34(1.34) |   65.70(8.50)     69.40(8.57)     70.04(7.98)     71.34(1.34)     67.53( 6.95)     73.57(6.86)     78.46(6.60) v
+Thoracic_Surgery_Risk_Tra(100)   71.34(1.35) |   64.83(8.28) *   72.13(9.03)     72.36(9.41)     71.34(1.35)     68.84( 8.48)     75.08(6.82)     80.80(6.67) v
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                     (v/ /*) |         (0/2/2)         (0/4/0)         (0/4/0)         (0/4/0)          (0/2/2)         (0/3/1)         (3/0/1)
+
+
+Key:
+(1) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W rules.ZeroR' -4523450618538717400
+(2) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W bayes.NaiveBayes' -4523450618538717400
+(3) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W trees.J48 -- -C 0.25 -M 2' -4523450618538717400
+(4) meta.FilteredClassifier '-F \"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\" -W trees.RandomForest -- -I 100 -K 0 -S 1 -num-slots 1' -4523450618538717400
+(5) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W rules.ZeroR' -4523450618538717400
+(6) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W bayes.NaiveBayes' -4523450618538717400
+(7) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.J48 -- -C 0.25 -M 2' -4523450618538717400
+(8) meta.FilteredClassifier '-F \"MultiFilter -F \\\"supervised.instance.SMOTE -C 0 -K 5 -P 200.0 -S 1\\\" -F \\\"supervised.instance.SpreadSubsample -M 1.0 -X 0.0 -S 1\\\"\" -W trees.RandomForest -- -I 100 -K 0 -S 1 -num-slots 1' -4523450618538717400
+
